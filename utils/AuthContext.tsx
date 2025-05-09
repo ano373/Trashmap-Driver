@@ -1,6 +1,7 @@
 import * as SecureStore from "expo-secure-store";
 import { SplashScreen, useRouter } from "expo-router";
 import { createContext, PropsWithChildren, useEffect, useState } from "react";
+import { API_URL } from "@/constants/url";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -61,14 +62,11 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
   const logIn = async ({ email, password }: AuthRequest) => {
     try {
-      const res = await fetch(
-        "http://192.168.114.46:8080/api/v1/auth/authenticate",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, password }),
-        }
-      );
+      const res = await fetch(`${API_URL}/auth/authenticate`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
 
       if (!res.ok) {
         const error = await res.json();
@@ -90,8 +88,8 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
   const logOut = () => {
     setIsLoggedIn(false);
-    setUserToken(null);
-    storeAuthState({ isLoggedIn: false, userToken: null });
+    // setUserToken(null);
+    // storeAuthState({ isLoggedIn: false, userToken: null });
     router.replace("/login");
   };
 
