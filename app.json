@@ -33,7 +33,14 @@
     "plugins": [
       "expo-router",
       "expo-secure-store",
-      "@maplibre/maplibre-react-native"
+      "@maplibre/maplibre-react-native",
+      [
+        "@youssefhenna/expo-mapbox-navigation",
+        {
+          "accessToken": "pk.eyJ1IjoiYW5kcmV3NTUiLCJhIjoiY21hZ210MWFsMDJ5MDJtczMzam1oNHM2YSJ9.0iin-SvJbTuAaZUCds_YPA",
+          "mapboxMapsVersion": "11.11.0"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

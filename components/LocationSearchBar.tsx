@@ -138,10 +138,10 @@ const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
                 onBlur={() => setSourceResults([])}
                 right={
                   isLoading ? (
-                    <TextInput.Icon name="clock" />
+                    <TextInput.Icon icon="clock" />
                   ) : sourceQuery ? (
                     <TextInput.Icon
-                      name="close"
+                      icon="close"
                       onPress={() => handleTextChange("", "source")}
                     />
                   ) : null
@@ -166,7 +166,7 @@ const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
                         color={colors.primary}
                       />
                       <Text
-                        style={[styles.suggestionText, { color: colors.text }]}
+                        style={[styles.suggestionText, { color: colors.onSurface }]}
                       >
                         {result.display_name}
                       </Text>
@@ -193,10 +193,10 @@ const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
                 onBlur={() => setDestinationResults([])}
                 right={
                   isLoading ? (
-                    <TextInput.Icon name="clock" />
+                    <TextInput.Icon icon="clock" />
                   ) : destinationQuery ? (
                     <TextInput.Icon
-                      name="close"
+                      icon="close"
                       onPress={() => handleTextChange("", "destination")}
                     />
                   ) : null
@@ -223,7 +223,7 @@ const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
                         color={colors.primary}
                       />
                       <Text
-                        style={[styles.suggestionText, { color: colors.text }]}
+                        style={[styles.suggestionText, { color: colors.onSurface }]}
                       >
                         {result.display_name}
                       </Text>

@@ -10,6 +10,7 @@ import mapjson from "@/constants/mapjson.json";
 import * as Location from "expo-location";
 import { FAB, Provider as PaperProvider } from "react-native-paper";
 import LocationSearchBar from "@/components/LocationSearchBar";
+import RouteMap from "@/components/RouteMap";
 
 export default function MapScreen() {
   const cameraRef = useRef(null);
@@ -101,6 +102,18 @@ export default function MapScreen() {
                 }}
               />
             </ShapeSource>
+          )}
+          {sourceCoords && destinationCoords && (
+            <RouteMap
+              sourcePoint={{
+                latitude: parseFloat(sourceCoords.lat),
+                longitude: parseFloat(sourceCoords.lon),
+              }}
+              destPoint={{
+                latitude: parseFloat(destinationCoords.lat),
+                longitude: parseFloat(destinationCoords.lon),
+              }}
+            />
           )}
         </MapView>
 
