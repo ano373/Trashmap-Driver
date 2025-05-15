@@ -6,8 +6,7 @@ This is a React Native app built with [Expo](https://expo.dev/) that provides tu
 [📄 View Project Report (PDF) team id 20](Team_id_20.pdf)
 
 ## Demo video
-https://github.com/user-attachments/assets/018d2636-0d32-4c5d-8378-0234e0cd3cbas
-
+https://github.com/user-attachments/assets/1021b2ef-05dd-41a4-b381-986ecb1635fc
 
 ## 🧭 Features
 
