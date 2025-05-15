@@ -6,7 +6,7 @@ This is a React Native app built with [Expo](https://expo.dev/) that provides tu
 [📄 View Project Report (PDF) team id 20](Team_id_20.pdf)
 
 ## Demo video
-📺 [Watch video demo](https://streamable.com/e/7chv3j)
+📺 [Watch video demo](https://github.com/ano373/Trashmap-Driver/issues/1#issue-3064866958)
 
 
 ## 🧭 Features
