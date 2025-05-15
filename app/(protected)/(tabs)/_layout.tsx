@@ -18,28 +18,6 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="tasks"
-        options={{
-          title: "tasks",
-          headerShown: true,
-          tabBarLabel: "Tasks",
-          tabBarIcon: ({ color, size }) => (
-            <FontAwesome5 name="route" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="activity"
-        options={{
-          title: "activity",
-          headerShown: true,
-          tabBarLabel: "Activity",
-          tabBarIcon: ({ color, size }) => (
-            <FontAwesome5 name="archive" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
         name="account"
         options={{
           title: "account",

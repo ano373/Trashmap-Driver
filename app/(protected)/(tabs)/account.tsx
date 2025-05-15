@@ -1,9 +1,13 @@
-import { View, Text } from "react-native";
+import React from "react";
+import { Button, View } from "react-native";
+import useNotifications from "@/hooks/useNotifications";
 
-export default function AccountScreen() {
+export default function accountScreen() {
+  const { sendHotWeatherNotification } = useNotifications();
+
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Account Screen</Text>
+      <Button title="check weather" onPress={sendHotWeatherNotification} />
     </View>
   );
 }

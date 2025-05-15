@@ -72,15 +72,15 @@ const LocationSearchBar: React.FC<LocationSearchBarProps> = ({
       onDestinationChange(text);
     }
 
-    // if (debounceTimer.current) clearTimeout(debounceTimer.current);
+    // // if (debounceTimer.current) clearTimeout(debounceTimer.current);
 
-    // debounceTimer.current = setTimeout(() => {
-    //   if (text.trim().length > 0) {
+    // // debounceTimer.current = setTimeout(() => {
+    // //   if (text.trim().length > 0) {
     handleGeocode(text, type);
-    //   } else {
-    //     type === "source" ? setSourceResults([]) : setDestinationResults([]);
-    //   }
-    // }, 500);
+    // //   } else {
+    // //     type === "source" ? setSourceResults([]) : setDestinationResults([]);
+    // //   }
+    // // }, 500);
   };
 
   const handleSuggestionSelect = (

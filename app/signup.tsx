@@ -8,7 +8,7 @@ import { API_URL } from "@/constants/url";
 const SignUpScreen = () => {
   const router = useRouter();
   const theme = useTheme();
-  const { userToken } = useContext(AuthContext); // Get token from context
+  const { userToken } = useContext(AuthContext);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",

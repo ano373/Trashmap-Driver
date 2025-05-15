@@ -34,8 +34,8 @@ const LoginScreen: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>TrashMap</Text>
-      <Text style={styles.subtitle}>DELIVERY SYSTEM</Text>
+      <Text style={styles.title}>RouteMap</Text>
+      <Text style={styles.subtitle}>your road buddy</Text>
 
       <Text style={styles.loginText}>Login to your account</Text>
 
