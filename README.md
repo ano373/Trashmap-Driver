@@ -5,6 +5,10 @@ This is a React Native app built with [Expo](https://expo.dev/) that provides tu
 ## Report link
 [📄 View Project Report (PDF) team id 20](Team_id_20.pdf)
 
+## Demo video
+📺 [Watch video demo](https://streamable.com/e/7chv3j)
+
+
 ## 🧭 Features
 
 - Interactive Map using MapLibre + OSM
