@@ -3,7 +3,7 @@
 This is a React Native app built with [Expo](https://expo.dev/) that provides turn-by-turn routing between a source and destination using OpenStreetMap data rendered via MapLibre, and routing powered by Mapbox / OpenRouteService.
 
 ## Report link
-[📄 View Project Report (PDF) team id 20](team_id_20.pdf)
+[📄 View Project Report (PDF) team id 20](Team_id_20.pdf)
 
 ## 🧭 Features
 
