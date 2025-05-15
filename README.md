@@ -22,5 +22,5 @@ This is a React Native app built with [Expo](https://expo.dev/) that provides tu
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-routing-app.git
-cd your-routing-app
+git clone git@github.com:ano373/Trashmap-Driver.git
+cd trashmap-driver
