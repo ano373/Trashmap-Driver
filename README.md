@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/1021b2ef-05dd-41a4-b381-986ecb1635fc
 - React Native (Expo)
 - @maplibre/maplibre-react-native
 - OpenStreetMap
-- OpenRouteService API (choose one)
+- OpenRouteService API
 - TypeScript
 
 ## ⚙️ Setup
