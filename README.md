@@ -24,3 +24,13 @@ This is a React Native app built with [Expo](https://expo.dev/) that provides tu
 ```bash
 git clone git@github.com:ano373/Trashmap-Driver.git
 cd trashmap-driver
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Start the app
+```bash
+npm start
+```
+
