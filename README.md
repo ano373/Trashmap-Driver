@@ -1,0 +1,26 @@
+# 🚚 Smart Routing App (Expo + React Native)
+
+This is a React Native app built with [Expo](https://expo.dev/) that provides turn-by-turn routing between a source and destination using OpenStreetMap data rendered via MapLibre, and routing powered by Mapbox / OpenRouteService.
+
+## 🧭 Features
+
+- Interactive Map using MapLibre + OSM
+- Select Source & Destination on map or by coordinates
+- Display optimal route with polyline
+- Built with Expo for fast development and cross-platform support
+
+## 🛠️ Tech Stack
+
+- React Native (Expo)
+- @maplibre/maplibre-react-native
+- OpenStreetMap
+- OpenRouteService API (choose one)
+- TypeScript
+
+## ⚙️ Setup
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/your-routing-app.git
+cd your-routing-app
